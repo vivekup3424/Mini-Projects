@@ -1,0 +1,56 @@
+body{
+    background-image: url("./images/conference_room.jpg");
+    /*background-image: linear-gradient( 115deg, rgba(58, 58, 158, 0.8), 
+    rgba(136, 136, 206, 0.7) ),
+    url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display:flex;
+    flex-direction: column;
+    margin:0;
+    box-sizing: border-box;
+    align-items: center;
+    background-attachment: fixed;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+}
+input,select{
+    height: 1.7rem;
+    font-size: 1.2rem;
+    padding: auto;
+}
+.container
+{
+    max-width: 800px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(223, 136, 109, 0.7);
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+.block-label{
+display: flex;
+flex-direction: column;
+padding: 10px;
+}
+.optional{
+    display: inline;
+    font-size: 0.8rem;
+    opacity: 0.9;
+}
+.inline{
+    display:flex;
+    flex-direction: row;
+}
+.fade
+{
+    color: rgb(70, 70, 70);
+}
+
+#submit
+{
+    margin:auto;
+    align-items: center;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mock Survey Form</title>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <h1 id="title">Free Code Camp Survey Form</h1>
+    <p id="description">Thank you for taking time to improve the platform</p>
+    <div class="container">
+        <form action="#" id="survey-form">
+            <label class="block-label" id="name-label">Name
+                <input type="text" name="Name" id="name" placeholder="Enter your name" value="123df@gmail.com"required>
+            </label>
+            <label class="block-label" id="email-label">Email
+                <input type="email" name="Email" id="email" placeholder="Enter your Email" required>
+            </label>
+            <label class="block-label" id="number-label">
+                <p class="desc">Age <span class="optional">(optional)</span>
+                </p>
+                <input type="number" name="Age" id="number" placeholder="Age" min="10" max="150">
+            </label>
+            <label class="block-label">Which option best describes your current role?
+                <select id="dropdown">
+                    <option value="" class="fade">Select current role</option>
+                    <option value="1">Full time job</option>
+                    <option value="2">Full time learner</option>
+                    <option value="3">Student</option>
+                    <option value="4">Prefer not to say</option>
+                    <option value="5">Other</option>
+                </select>
+            </label>
+            <label class="block-label">
+                What is your favorite feature of freecodecamp?
+                <select>
+                    <option value="" class="fade">Select an option</option>
+                    <option value="1">Challenges</option>
+                    <option value="2">Projects</option>
+                    <option value="3">Community</option>
+                    <option value="4">Open source</option>
+                    <option value="5">Other</option>
+                </select>
+            </label>
+            <label for="" class="block-label">
+                <section class="desc">
+                What would you like to see improved?
+                <span class="optional">(Check all that apply.)</span>
+                </section>
+                <span class="inline"><input type="checkbox" value="1"> Front-end Projects</span>
+                <span class="inline"><input type="checkbox" value="2"> Back-end Projects</span>
+                <span class="inline"><input type="checkbox" value="3"> Data visualization</span>
+                <span class="inline"><input type="checkbox" value="4"> Challenges</span>
+                <span class="inline"><input type="checkbox" value="5"> open source community</span>
+                <span class="inline"><input type="checkbox" value="6"> gitter hepl room</span>
+                <span class="inline"><input type="checkbox" value="7"> videos</span>
+                <span class="inline"><input type="checkbox" value="8"> city meetups</span>
+                <span class="inline"><input type="checkbox" value="9"> wiki</span>
+                <span class="inline"><input type="checkbox" value="11"> forum</span>
+                <span class="inline"><input type="checkbox" value="12"> additional courses</span>
+            </label>
+            <label for="" class="block-label">
+                Any comments or suggestions?
+                <textarea name="" id="" cols="40" rows="10" placeholder="Enter your comment here..."></textarea>
+            </label>
+            <label class="block-label">
+                What are you?
+                <span class="inline">
+                    <input type="radio" name="gender" id="gender1"value="1">Male
+                </span>
+                <span class="inline">
+                    <input type="radio" name="gender" id="gender2"value="2">Female
+                </span>
+            </label>
+            <input type="submit" value="Submit" id="submit">
+        </form>
+    </div>
+</body>
+</html>
